@@ -1,8 +1,7 @@
 // Change the border color of the form when submit if the field is empty
 
-$("#mySelectBox");
-
-$("#myTextarea");
+// $("#mySelectBox");
+// $("#myTextarea");
 
 console.log($("button"));
 
