@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="container justify-content-start">
+        <img src="./assets/logo.png" class="img-logo" alt="" />
+        <h2 class="text-light">Adopte Un Dev</h2>
+      </div>
+    </nav>
+
+    <header>
+      <h1>Trouve le meilleur dev de ta région !!</h1>
+    </header>
+
+    <section class="middle-section container my-5">
+      <!-- Div class Row to make it responsive -->
+      <div class="row">
+        <!-- First column - Form -->
+        <div class="col-lg-3 my-3">
+          <form class="border rounded p-3">
+            <h3>Les devs à adopter</h3>
+            <div class="mb-3">
+              <select
+                class="form-select fs-5"
+                aria-label="Default select example"
+                id="mySelectBox"
+              >
+                <option selected value="">-- Choisissez --</option>
+                <option value="David">David Hasselhoff</option>
+                <option value="Chuck">Chuck Norris</option>
+                <option value="Rick">Rick Rolls</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <textarea
+                class="form-control fs-5"
+                placeholder="Merci de décrire pourquoi vous préférez ce développeur en particulier"
+                id="myTextarea"
+                rows="10"
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-success w-100 fs-5">
+              Envoyer
+            </button>
+          </form>
+        </div>
+        <!-- End of div - first column row -->
+
+        <!-- Div second column - carousel -->
+        <div class="col-lg-9 my-3">
+          <div
+            id="carouselExampleCaptions"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <ol class="carousel-indicators">
+              <li
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="0"
+                class="active"
+              ></li>
+              <li
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="1"
+              ></li>
+              <li
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="2"
+              ></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="./assets/david-hasselhoff.jpg"
+                  class="img-car d-block w-100"
+                  alt="hassel"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>David Hasselhoff</h5>
+                  <!-- <p>
+                    Nulla vitae elit libero, a pharetra augue mollis interdum.
+                  </p> -->
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./assets/chuck-norris.jpg"
+                  class="img-car d-block w-100"
+                  alt="chuck"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Chuck Norris</h5>
+                  <!-- <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p> -->
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./assets/rick-rolls.jpg"
+                  class="img-car d-block w-100"
+                  alt="rick"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Rick Rolls</h5>
+                  <!-- <p>
+                    Praesent commodo cursus magna, vel scelerisque nisl
+                    consectetur.
+                  </p> -->
+                </div>
+              </div>
+            </div>
+            <a
+              class="carousel-control-prev"
+              href="#carouselExampleCaptions"
+              role="button"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </a>
+            <a
+              class="carousel-control-next"
+              href="#carouselExampleCaptions"
+              role="button"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- End of Div second column - carrousel -->
+    </section>
+
+    <footer>
+      <div class="foot-box container">
+        <div class="foot-text">
+          <h3>Nos devs à adopter</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere
+            corrupti officiis perspiciatis illum suscipit, eum repellat totam
+            non aspernatur libero odit deleniti quibusdam. Inventore amet
+            explicabo iusto tempore ratione a!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+            praesentium, dolor nisi alias quis animi quas hic reprehenderit
+            aspernatur? Fuga corporis nisi rem tempora optio reiciendis ratione
+            sequi non quae?
+          </p>
+        </div>
+        <img src="./assets/tete-chat.png" alt="" />
+      </div>
+    </footer>
+
+    <!-- Javascript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./jquery-3.5.1.min.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>

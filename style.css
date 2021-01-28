@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: auto;
+  font-size: 1.6rem;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+h1 {
+  font-weight: 100;
+  text-shadow: 2px 2px black;
+}
+
+textarea {
+  height: 30rem;
+}
+
+/*------------- nav bar ------------------*/
+.img-logo {
+  width: 4rem;
+  height: 4.5rem;
+}
+
+/*--------------- Header ---------------------------*/
+
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("./assets/iron_texture637.jpg") no-repeat top/cover;
+  height: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: ivory;
+}
+
+/*----------------- Middle Section ----------------*/
+.img-car {
+  height: 35rem;
+}
+
+/*---------------------- Footer -----------------*/
+
+footer {
+  background-color: #ddd;
+  font-size: 1.2rem;
+}
+
+.foot-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer img {
+  width: 30rem;
+  background-color: #7885a5;
+}
+
+.cat-change {
+  background-color: #061339;
+}
+
+.empty {
+  border: 1px solid red;
+}
