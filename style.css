@@ -39,8 +39,7 @@ textarea {
 /*--------------- Header ---------------------------*/
 
 header {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("./assets/iron_texture637.jpg") no-repeat top/cover;
+  background: url("./assets/iron_texture637.jpg") no-repeat top/cover;
   height: 15rem;
   display: flex;
   justify-content: center;
